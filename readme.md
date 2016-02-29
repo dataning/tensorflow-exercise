@@ -10,3 +10,6 @@ Reference sites
  - tensorflow : www.tensorflow.org tensorflow web site
  
  
+other awesome sites related with deep learning
+ - https://www.facebook.com/thepsybus/
+ - https://github.com/stephencwelch 
