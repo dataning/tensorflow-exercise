@@ -19,6 +19,9 @@ if [ $JAVA_VER = 17 ]
 then
     	echo "java version is 1.7"
 
+else 
+	sudo apt-get install openjdk-7-jdk
+
 fi
 
 # bazel installation  
