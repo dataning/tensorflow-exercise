@@ -4,11 +4,18 @@
 
 sudo apt-get update
 
-sudo apt-get install git python-dev python-pip python-matplotlib python-scipy python-pip  build-essential sysv-rc-conf swig 
+sudo apt-get install git python-dev python-pip python-matplotlib python-scipy build-essential sysv-rc-conf swig gfortran
 
-# python lib installation
+# ubuntu opneblas installation for optimization
 
-sudo pip install -U scikit-learn
+sudo apt-get install libopenblas-base
+sudo apt-get install libopenblas-dev
+
+sudo update-alternatives --config libblas.so.3
+
+# python lib installation up to your python packages
+
+sudo pip install -U scikit-learn 
 
 
 # OPEN JDK 1.7 INSTALLATION
@@ -44,7 +51,7 @@ else
 
 fi
 
-# tensorflow dev version installation
+# tensorflow development version installation
 
 sudo git clone --recurse-submodules https://github.com/tensorflow/tensorflow $HOME/tensorflow
 
