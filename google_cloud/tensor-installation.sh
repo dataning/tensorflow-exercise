@@ -1,19 +1,22 @@
 #!/bin/bash
 
+# check your CPU 
+grep "flags" /proc/cpuinfo
+
 # ubuntu package installation
 
 sudo apt-get update
 
 sudo apt-get install git python-dev python-pip python-matplotlib python-scipy build-essential sysv-rc-conf swig gfortran
 
-# ubuntu opneblas installation for optimization
+# opneblas installation for numpy performance optimization
 
 sudo apt-get install libopenblas-base
 sudo apt-get install libopenblas-dev
 
 sudo update-alternatives --config libblas.so.3
 
-# python lib installation up to your python packages
+# python lib installation up to your favorite python packages
 
 sudo pip install -U scikit-learn 
 
@@ -61,6 +64,8 @@ cd $HOME/tensorflow
 
 bazel build -c opt //tensorflow/tools/pip_package:build_pip_package
 
+# bazel build -c opt --copt=-mavx //tensorflow/tools/pip_package:build_pip_package
+
 mkdir _python_build
 
 cd _python_build
@@ -74,6 +79,8 @@ sudo python setup.py develop
 cd ..
 
 bazel build -c opt //tensorflow/core/distributed_runtime/rpc:grpc_tensorflow_server
+
+# bazel build -c opt --copt=-mavx //tensorflow/core/distributed_runtime/rpc:grpc_tensorflow_server
 
 
 # ipython notebook installation
