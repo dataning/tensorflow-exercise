@@ -20,3 +20,9 @@ Tensorflow code exercise repository.
 
 - https://www.facebook.com/thepsybus/
 - https://github.com/stephencwelch
+
+4. installation file 
+- tensorflow : tensor-installation.sh 
+- serving: tensor-server.sh 
+
+
