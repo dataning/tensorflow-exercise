@@ -1,24 +1,27 @@
 #!/bin/bash
 
 # check your CPU 
-grep "flags" /proc/cpuinfo
+# grep "flags" /proc/cpuinfo
+# lscpu
 
 # ubuntu package installation
 
 sudo apt-get update
 
-sudo apt-get install git python-dev python-pip python-matplotlib python-scipy build-essential sysv-rc-conf swig gfortran
+sudo apt-get install git python-dev python-pip python-matplotlib python-scipy build-essential sysv-rc-conf swig gfortran 
 
-# opneblas installation for numpy performance optimization
+
+## opneblas installation for numpy performance optimization
 
 sudo apt-get install libopenblas-base
 sudo apt-get install libopenblas-dev
 
 sudo update-alternatives --config libblas.so.3
 
+
 # python lib installation up to your favorite python packages
 
-sudo pip install -U scikit-learn 
+sudo pip install -U scikit-learn
 
 
 # OPEN JDK 1.7 INSTALLATION
@@ -91,6 +94,29 @@ sudo pip install jupyter
 
 jupyter notebook --log-level=50 --ip='*' --port=49151
 
+
+
+# Theano installation 
+
+sudo apt-get install python-nose g++ libopenblas-dev
+
+sudo pip install Theano
+
+# Caffe installation
+
+sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler
+sudo apt-get install --no-install-recommends libboost-all-dev
+
+sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
+
+git clone https://github.com/BVLC/caffe
+
+cd caffe
+
+# Set BLAS := open in Makefile.config
+# CPU_ONLY := 1 
+
+cp Makefile.config.example Makefile.config
 
 
 
