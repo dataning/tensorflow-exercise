@@ -1,6 +1,6 @@
 ﻿Tensorflow code exercise repository.
 
-1. Directory Layout
+## Directory Layout
 
 - calculus
    : python notebook code about calculus differenciation 
@@ -14,19 +14,8 @@
 - practical_application
    : T.B.D.
 
-2. Reference sites
 
-- calculus : www.edx.org calculus differenciation course
-
-- tensorflow : www.tensorflow.org tensorflow web site
-
-3. other awesome sites related with deep learning
-
-- https://www.facebook.com/thepsybus/
-
-- https://github.com/stephencwelch
-
-4. installation files
+## installation files
  
 - tensorflow : tensor-installation.sh 
 
@@ -37,5 +26,18 @@
 - python packages : python_installation.sh
 
 - jupyter notebook boot start : bootstart_jupyter.sh 
+
+
+## Reference sites
+
+- calculus : www.edx.org calculus differenciation course
+
+- tensorflow : www.tensorflow.org tensorflow web site
+
+## other awesome sites related with deep learning
+
+- https://www.facebook.com/thepsybus/
+
+- https://github.com/stephencwelch
 
 
