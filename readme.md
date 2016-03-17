@@ -28,6 +28,21 @@
 - jupyter notebook boot start : bootstart_jupyter.sh 
 
 
+## ubuntu 14.04 desktop virtual box installation
+ 
+- Donwload Vagrantfile from https://gist.github.com/jongchul/6da1ac010673b3baf490 
+   
+- 'vagrant up' on command prompt  
+
+- you can ssh into the vm 
+  - id : vagrant 
+  - password : vagrant  
+
+- git installation on the vm 
+    - sudo apt-get install git
+    
+
+
 ## Reference sites
 
 - calculus : www.edx.org calculus differenciation course
