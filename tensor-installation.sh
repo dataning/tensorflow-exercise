@@ -91,12 +91,6 @@ jupyter notebook --log-level=50 --ip='*' --port=49151
 
 
 
-# python lib installation up to your favorite python packages
-
-sudo pip install -U scikit-learn
-
-
-
 
 
 
