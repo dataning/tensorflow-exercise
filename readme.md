@@ -32,7 +32,7 @@
  
 - Donwload Vagrantfile from https://gist.github.com/jongchul/6da1ac010673b3baf490 
    
-- 'vagrant up' on command prompt  
+- 'vagrant up' in command prompt  
 
 - you can ssh into the vm 
   - id : vagrant 
@@ -49,10 +49,6 @@
 
 - tensorflow : www.tensorflow.org tensorflow web site
 
-## other awesome sites related with deep learning
 
-- https://www.facebook.com/thepsybus/
-
-- https://github.com/stephencwelch
 
 
