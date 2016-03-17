@@ -19,11 +19,6 @@ sudo apt-get install libopenblas-dev
 sudo update-alternatives --config libblas.so.3
 
 
-# python lib installation up to your favorite python packages
-
-sudo pip install -U scikit-learn
-
-
 # OPEN JDK 1.7 INSTALLATION
 
 JAVA_VER=$(java -version 2>&1 | sed 's/java version "\(.*\)\.\(.*\)\..*"/\1\2/; 1q')
@@ -96,27 +91,12 @@ jupyter notebook --log-level=50 --ip='*' --port=49151
 
 
 
-# Theano installation 
+# python lib installation up to your favorite python packages
 
-sudo apt-get install python-nose g++ libopenblas-dev
+sudo pip install -U scikit-learn
 
-sudo pip install Theano
 
-# Caffe installation
 
-sudo apt-get install libprotobuf-dev libleveldb-dev libsnappy-dev libopencv-dev libhdf5-serial-dev protobuf-compiler
-sudo apt-get install --no-install-recommends libboost-all-dev
-
-sudo apt-get install libgflags-dev libgoogle-glog-dev liblmdb-dev
-
-git clone https://github.com/BVLC/caffe
-
-cd caffe
-
-# Set BLAS := open in Makefile.config
-# CPU_ONLY := 1 
-
-cp Makefile.config.example Makefile.config
 
 
 
