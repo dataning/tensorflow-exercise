@@ -5,7 +5,7 @@
 - calculus
    : python notebook code about calculus differenciation 
 
- - tensorflow
+- tensorflow
    : tensorflow python code
 
 - google_cloud
