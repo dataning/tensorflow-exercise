@@ -2,17 +2,15 @@
 
 ## Directory Layout
 
-- calculus
-   : python notebook code about calculus differenciation 
-
-- tensorflow
-   : tensorflow python code
+- exercise
+   - differenciation.ipynb : python notebook code about calculus differenciation 
+   - embedding1.ipynb : python notebook code about embedding
 
 - google_cloud
-   : tensorflow installation on google cloud compute engine 
+   - tensorflow installation on google cloud compute engine 
 
 - practical_application
-   : T.B.D.
+   - T.B.D.
 
 
 ## installation files
