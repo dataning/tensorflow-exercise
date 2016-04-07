@@ -1,8 +1,8 @@
 
 # coding: utf-8
 
-# Simple embedding example using Theano. It demonstrates that embeddings(embedding w1 * embedding w2) concludes 
-# the silimar point through cost minimization function.
+# Simple embedding example using Theano. It demonstrates that embeddings(embedding w1 * embedding w2) conclude
+# similar points through cost minimization function.
 
 # In[1]:
 
