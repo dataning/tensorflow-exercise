@@ -3,9 +3,10 @@
 ## Directory Layout
 
 - exercise
-   - differenciation.ipynb : python notebook code about calculus differenciation 
-   - embedding1.ipynb : python notebook code about embedding
-   - word2vec_basic.ipynb : python notebook code about tensorflow word2vec_basic
+   - image_matrix1.ipynb : converting image data(jpg format) into tensor object
+   - differenciation.ipynb : calculus differenciation 
+   - embedding1.ipynb : simple embedding example using Theano
+   - word2vec_basic.ipynb : tensorflow word2vec_basic
 
 - google_cloud
    - tensorflow installation on google cloud compute engine 
