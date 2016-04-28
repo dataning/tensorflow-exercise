@@ -15,7 +15,7 @@
    - T.B.D.
 
 
-## installation 
+## installation on PC
 
 - install anaconda
       - https://www.continuum.io/downloads#_unix
@@ -29,6 +29,7 @@
         - conda install jupyter
         - conda install matplotlib
         - conda install Theano
+        - conda install scikit-learn
         
 - start jupyter notebook 
         - jupyter notebook --log-level=50 --ip='*' --port=49151
