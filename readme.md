@@ -25,14 +25,14 @@
       - source activate tensorflow
       - pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
 
-- install python packages 
-        - conda install jupyter
-        - conda install matplotlib
-        - conda install Theano
-        - conda install scikit-learn
+- install python packages
+      - conda install jupyter
+      - conda install matplotlib
+      - conda install Theano
+      - conda install scikit-learn
         
 - start jupyter notebook 
-        - jupyter notebook --log-level=50 --ip='*' --port=49151
+      - jupyter notebook --log-level=50 --ip='*' --port=49151
 
  
 
