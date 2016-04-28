@@ -51,7 +51,6 @@
     - sudo apt-get install git
     
 
-
 ## Reference sites
 
 - calculus : www.edx.org calculus differenciation course
@@ -59,20 +58,7 @@
 - tensorflow : www.tensorflow.org tensorflow web site
 
 
-## Old installation files
 
-- tensorflow : tensor-installation.sh 
-
-- serving: tensor-server.sh 
-
-- theano, caffe : theano-caffe-installation.sh
-
-- python packages : python_installation.sh
-
-- jupyter notebook boot start : bootstart_jupyter.sh 
-
-## Tensorflow upgrade using pip (20160423)
-- sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
 
 
 
