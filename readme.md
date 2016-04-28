@@ -15,22 +15,25 @@
    - T.B.D.
 
 
-## installation files
+## installation 
+
+- install anaconda
+      - https://www.continuum.io/downloads#_unix
+
+- install tensorflow (www.tensorflow.org)
+      - conda create -n tensorflow python=2.7
+      - source activate tensorflow
+      - pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
+
+- install python packages 
+        - conda install jupyter
+        - conda install matplotlib
+        - conda install Theano
+        
+- start jupyter notebook 
+        - jupyter notebook --log-level=50 --ip='*' --port=49151
+
  
-- tensorflow : tensor-installation.sh 
-
-- serving: tensor-server.sh 
-
-- theano, caffe : theano-caffe-installation.sh
-
-- python packages : python_installation.sh
-
-- jupyter notebook boot start : bootstart_jupyter.sh 
-
-
-## Tensorflow upgrade using pip (20160423)
-- sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
-
 
 ## ubuntu 14.04 desktop virtual box installation
  
@@ -43,6 +46,7 @@
   - password : vagrant  
 
 - git installation on the vm 
+    - sudo apt-get update
     - sudo apt-get install git
     
 
@@ -53,6 +57,21 @@
 
 - tensorflow : www.tensorflow.org tensorflow web site
 
+
+## Old installation files
+
+- tensorflow : tensor-installation.sh 
+
+- serving: tensor-server.sh 
+
+- theano, caffe : theano-caffe-installation.sh
+
+- python packages : python_installation.sh
+
+- jupyter notebook boot start : bootstart_jupyter.sh 
+
+## Tensorflow upgrade using pip (20160423)
+- sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
 
 
 
