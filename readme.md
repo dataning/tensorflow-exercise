@@ -1,10 +1,10 @@
-﻿Tensorflow code exercise repository.
+Under construction......................
 
 ## Directory Layout
 
 - R : R examples
 
-- exercise : deep learning examples 
+- tensorflow : Tensorflow examples 
    - image_matrix1.ipynb : converting image data(jpg format) into tensor object
    - differenciation.ipynb : calculus differenciation 
    - embedding1.ipynb : simple embedding example using Theano
@@ -13,7 +13,7 @@
 - google_cloud
    - tensorflow installation on google cloud compute engine 
 
-- practical_application
+- project
    - T.B.D.
 
 
