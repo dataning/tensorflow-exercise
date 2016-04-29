@@ -2,7 +2,9 @@
 
 ## Directory Layout
 
-- exercise
+- R : R examples
+
+- exercise : deep learning examples 
    - image_matrix1.ipynb : converting image data(jpg format) into tensor object
    - differenciation.ipynb : calculus differenciation 
    - embedding1.ipynb : simple embedding example using Theano
