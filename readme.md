@@ -30,7 +30,11 @@
       - conda install matplotlib
       - conda install Theano
       - conda install scikit-learn
-        
+      - conda install -c r r-essentials
+     
+- install bioconductor packages 
+      - http://bioconda.github.io/
+
 - start jupyter notebook 
       - jupyter notebook --log-level=50 --ip='*' --port=49151
 
