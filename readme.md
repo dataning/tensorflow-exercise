@@ -21,17 +21,20 @@ Under construction......................
 
 - install anaconda
       - https://www.continuum.io/downloads#_unix
-
+     
 - install tensorflow (www.tensorflow.org)
       - conda create -n tensorflow python=2.7
       - source activate tensorflow
       - pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
 
 - install python packages
+      - conda install numba
+      - conda install dask
       - conda install jupyter
       - conda install matplotlib
       - conda install Theano
       - conda install scikit-learn
+      - conda install -c anaconda-nb-extensions nbpresent
       - conda install -c r r-essentials
      
 - install bioconductor packages 
