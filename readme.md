@@ -1,6 +1,14 @@
-Under construction......................
+Under construction........................
+
+This repository will consist of simple codes which can be useful for prototyping idea and deploying on the cloud. 
 
 ## Directory Layout
+
+- raspberrypi 
+
+- dataflow
+
+- jupyter
 
 - R : R examples
 
@@ -10,24 +18,22 @@ Under construction......................
    - embedding1.ipynb : simple embedding example using Theano
    - word2vec_basic.ipynb : tensorflow word2vec_basic
 
+- genomics
+
 - google_cloud
-   - tensorflow installation on google cloud compute engine 
-
-- project
-   - T.B.D.
-
+    
 
 ## installation on PC
 
-- install anaconda
+- installing anaconda
       - https://www.continuum.io/downloads#_unix
      
-- install tensorflow (www.tensorflow.org)
+- installing tensorflow (www.tensorflow.org)
       - conda create -n tensorflow python=2.7
       - source activate tensorflow
       - pip install --ignore-installed --upgrade https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.8.0-cp27-none-linux_x86_64.whl
 
-- install python packages
+- installing python packages 
       - conda install numba
       - conda install dask
       - conda install jupyter
@@ -37,10 +43,10 @@ Under construction......................
       - conda install -c anaconda-nb-extensions nbpresent
       - conda install -c r r-essentials
      
-- install bioconductor packages 
+- installing bioconductor packages 
       - http://bioconda.github.io/
 
-- start jupyter notebook 
+- starting jupyter notebook 
       - jupyter notebook --log-level=50 --ip='*' --port=49151
 
  
@@ -66,6 +72,11 @@ Under construction......................
 
 - tensorflow : www.tensorflow.org tensorflow web site
 
+- raspberrypi : www.raspberrypi.org
+
+- jupyter : jupyter.org
+
+- google_cloud : cloud.google.com
 
 
 
