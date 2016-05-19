@@ -48,7 +48,12 @@ This repository will consist of simple codes which can be useful for prototyping
 
 - starting jupyter notebook 
       - jupyter notebook --log-level=50 --ip='*' --port=49151
+      
 
+## Installing Julia (optional)
+
+- http://julialang.org/downloads/platform.html
+- http://quant-econ.net/jl/getting_started.html
  
 
 ## ubuntu 14.04 desktop virtual box installation
