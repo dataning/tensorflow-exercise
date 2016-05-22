@@ -1,6 +1,13 @@
 Under construction........................
 
-This repository will consist of simple codes which can be useful for prototyping idea and deploying on the cloud. 
+ I start to study tensorflow, because it provides many great examples about deep learning. I'm also using google 
+ cloud and as I learn something useful, I will summarize it on this repository.
+ 
+ (Writing is great for learning!!!!!)
+ 
+ Currently, it only has tensorflow installation scripts on linux boxes. 
+ 
+ This repository will consist of simple codes which can be useful for prototyping idea and deploying on the cloud.
 
 ## Directory Layout
 
