@@ -29,3 +29,11 @@ cd machine
 virtualenv --system-site-packages audio
 
 source audio/bin/activate
+
+# etc....
+
+http://www.pyimagesearch.com/2016/04/18/install-guide-raspberry-pi-3-raspbian-jessie-opencv-3/
+
+https://www.raspberrypi.org/forums/viewtopic.php?t=138145&f=28
+
+ => It is very hord to make my bluetooth speaker(I bought it from nearby store.) work with raspberrypi 3 model B with raspbian OS. 
