@@ -1,4 +1,5 @@
 # installing nbextensions 
+# conda install -c anaconda-nb-extensions nbpresent (this dose not work for me.)
 
  - https://github.com/ipython-contrib/IPython-notebook-extensions
 

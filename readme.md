@@ -47,7 +47,6 @@ Under construction........................
       - conda install matplotlib
       - conda install Theano
       - conda install scikit-learn
-      - conda install -c anaconda-nb-extensions nbpresent
       - conda install -c r r-essentials
      
 - installing bioconductor packages 
