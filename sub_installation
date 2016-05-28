@@ -1,0 +1,63 @@
+# activating.............
+
+source activate tensorflow
+
+# installing jupyter notebook extensions
+
+pip install https://github.com/ipython-contrib/IPython-notebook-extensions/archive/master.zip --user
+
+
+# installing jupyter packages
+
+pip install jupyter_dashboards jupyter_dashboards_bundlers jupyter_cms jupyter_kernel_gateway jupyter_declarativewidgets ipywidgets 
+
+
+# setting up...........................
+
+jupyter dashboards quick-setup --sys-prefix
+
+jupyter jupyter_cms quick-setup --sys-prefix
+
+jupyter dashboards_bundlers quick-setup --sys-prefix
+
+jupyter declarativewidgets quick-setup --sys-prefix
+
+jupyter nbextension enable --py widgetsnbextension
+
+
+
+# installing node.js
+
+
+sudo apt-get install -y nodejs npm
+
+sudo npm install -g debug
+
+# installing jupyter dashboards server
+
+sudo npm install -g jupyter-dashboards-server
+
+
+
+#Default ports
+ 
+ jupyter gateway : 8888
+ jupyter dashboard : 3000
+
+
+#Installing docker 
+ 
+  https://www.docker.com/
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+ - https://github.com/ipython-contrib/IPython-notebook-extensions
+
+ - https://github.com/jupyter-incubator/dashboards 
+ 
+
+
+ 
+
+ 
