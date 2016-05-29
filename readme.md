@@ -1,21 +1,16 @@
-Under construction........................
 
- I start to study tensorflow, because it provides many great examples about deep learning. I'm also using google 
- cloud and as I learn something useful, I will summarize it on this repository.
+  If we can well organize what we've done on the system. Even we can show our works to other cooperators or friends easily, it will be 
+ great. Machine learning classes with Jupyter notebook is very familiar with many students who learn computer programming language. As I'm 
+ one of these studuent, Here I've summarized some of what I have been doing during taking machine learning classes.  
+   
+  (Hopely, these simple and somewhat tedius codes can help!!!!!)
  
- (Writing is great for learning!!!!!)
  
- Currently, it only has tensorflow installation scripts on linux boxes. 
- 
- This repository will consist of simple codes which can be useful for prototyping idea and deploying on the cloud.
-
 ## Directory Layout
 
 - raspberrypi 
 
 - dataflow
-
-- jupyter
 
 - R : R examples
 

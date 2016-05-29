@@ -1,4 +1,7 @@
-## may not work
+ 
+ I've not  tested below packages. I've taken coursera genomic class, Command Line Tools for Genomic Data Science, which uses tophat2 and  
+ bowtie with command line on the class environment. Below packages should work!!!!
+
 
 Go to your virtual env...................
 
