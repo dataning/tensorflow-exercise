@@ -1,12 +1,12 @@
 
-  If we can well organize what we've done on the system. Even we can show our works to other cooperators or friends easily, it will be 
+  If we can well organize what we've done at school. Even we can show our works to other cooperators or friends easily, it will be 
  great. Machine learning classes with Jupyter notebook is very familiar with many students who learn computer programming language. As I'm 
- one of these studuent, Here I've summarized some of what I have been doing during taking machine learning classes.  
+ one of these studuent, Here I've summarized some of what I have been doing when I've taken machine learning classes.  
    
   (Hopely, these simple and somewhat tedius codes can help!!!!!)
  
  
-## Directory Layout
+## Installation files and some codes.
 
 - raspberrypi 
 
