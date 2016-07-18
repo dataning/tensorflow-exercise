@@ -1,3 +1,8 @@
+#Since google cloud already provides Cloud Data Lab, https://github.com/googledatalab/datalab. 
+# jupyter notebook deployment may not be very useful. However, sometimes it is 
+# useful that you just want to use the same jupyter notebook with others who don't 
+# use google cloud. Why not both of them.
+
 #Installing gcloud sdk 
 
  1. git clone https://github.com/jongchul/tensorflow-exercise
