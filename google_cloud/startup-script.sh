@@ -42,33 +42,47 @@ git clone https://github.com/jongchul/tensorflow-exercise.git /opt/cuteconda/
 # https://docs.continuum.io/anaconda/hashes
 
 
-wget http://repo.continuum.io/archive/Anaconda2-4.1.1-Linux-x86_64.sh -O /opt/cuteconda/conda.sh && \
-    /bin/bash ~/conda.sh
+if [ ! -d "opt/cuteconda/conda" ] ;
+    then
+
+        wget http://repo.continuum.io/archive/Anaconda2-4.1.1-Linux-x86_64.sh -O /opt/cuteconda/conda.sh && \
+        sudo /bin/bash /opt/cuteconda/conda.sh -b -p /opt/cuteconda/conda
     
+        
+fi
+
+export PATH=$PATH:"/opt/cuteconda/conda/bin"
+ 
 cd /opt/cuteconda
+
+conda update -y conda
+
+conda update -y anaconda
     
-conda create -n tensorflow python=2.7
+conda create -n tensorflow -y python=2.7
 
-conda install -n tensorflow numba dask jupyter matplotlib Theano scikit-learn
+conda install -n tensorflow -c jjhelmus -y tensorflow=0.9.0
 
-conda install -n tensorflow -c r r-essentials
+conda install -n tensorflow -y numba dask jupyter matplotlib Theano scikit-learn
+
+conda install -n tensorflow -c r -y r-essentials
 
 # Make sure the pythonapp user owns the application code
 chown -R pythonapp:pythonapp /opt/cuteconda
 
-# Configure supervisor to start gunicorn inside of our virtualenv and run the
+# Configure supervisor to start pythonapp inside of our conda env and run the
 # applicaiton.
 cat >/etc/supervisor/conf.d/python-app.conf << EOF
 [program:pythonapp]
 directory=/opt/cuteconda
-command=jupyter notebook --ip='*' --port=8080
+command=/opt/cuteconda/conda/envs/tensorflow/bin/jupyter notebook --ip='*' --port=8080
 autostart=true
 autorestart=true
 user=pythonapp
 
 # Environment variables ensure that the application runs inside of the
 # configured virtualenv.
-environment=PATH="/opt/cuteconda/anaconda2/envs/tensorflow/bin",\
+environment=PATH="/opt/cuteconda/conda/envs/tensorflow/bin",\
     HOME="/home/pythonapp",USER="pythonapp"
 stdout_logfile=syslog
 stderr_logfile=syslog
