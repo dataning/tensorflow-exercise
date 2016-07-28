@@ -1,7 +1,0 @@
-# installing gdal 
-
-https://gist.github.com/cspanring/5680334
-
-
-# installing python packages 
-
