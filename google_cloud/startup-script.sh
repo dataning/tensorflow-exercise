@@ -35,7 +35,20 @@ mkdir /opt/cuteconda
 
 export HOME=/root
 git config --global credential.helper gcloud.sh
-git clone https://github.com/jongchul/tensorflow-exercise.git /opt/cuteconda/
+
+
+# git clone your repository. If the dir exists, git pull for update.
+
+if [ ! -d "opt/cuteconda/tensorflow-exercise" ] ;
+    then
+
+        git clone https://github.com/jongchul/tensorflow-exercise.git /opt/cuteconda/
+        
+fi 
+
+cd /opt/cuteconda
+
+git pull
 
 # Install app dependencies
 # please check below 'Anaconda installer file hashes' if you want production. 
@@ -53,7 +66,6 @@ fi
 
 export PATH=$PATH:"/opt/cuteconda/conda/bin"
  
-cd /opt/cuteconda
 
 conda update -y conda
 
