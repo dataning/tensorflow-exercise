@@ -3,7 +3,7 @@
  great. Machine learning classes with Jupyter notebook is very familiar with many students who learn computer programming language. As I'm 
  one of these studuent, Here I've summarized some of what I have been doing when I've taken machine learning classes.  
    
-  (Hopely, these simple and somewhat tedius codes can help!!!!!)
+  (Hopefully, these simple and somewhat tedius codes can help!!!!!)
  
  
 ## Installation files and some codes.
