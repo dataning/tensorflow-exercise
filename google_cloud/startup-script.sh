@@ -65,20 +65,18 @@ if [ ! -d "opt/cuteconda/conda" ] ;
 
         wget http://repo.continuum.io/archive/Anaconda2-4.1.1-Linux-x86_64.sh -O /opt/cuteconda/conda.sh && \
         sudo /bin/bash /opt/cuteconda/conda.sh -b -p /opt/cuteconda/conda
-    
-        export PATH=$PATH:"/opt/cuteconda/conda/bin"
+            
         
-        conda create -n tensorflow -y python=2.7
         
 fi
 
-
+export PATH=$PATH:"/opt/cuteconda/conda/bin"
  
 conda update -y conda
 
 conda update -y anaconda
     
-# conda create -n tensorflow -y python=2.7
+conda create -n tensorflow -y python=2.7
 
 conda install -n tensorflow -c jjhelmus -y tensorflow=0.9.0
 
