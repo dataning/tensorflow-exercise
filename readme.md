@@ -1,6 +1,6 @@
 
   
-##  This repository has been made while I've learning machine learning. The repository contains R,Python and bash scripts. ( I'm just a cs student and not a bioinformatician.)
+####  This repository has been made while I've learning machine learning. The repository contains R,Python and bash scripts. ( I'm just a cs student and not a bioinformatician.)
   
   
   - raspberrypi : tensorflow installation (not specific plan to update)
@@ -11,7 +11,7 @@
   - google_cloud : tensorflow installation script on google cloud instance 
   
   
-## ubuntu 14.04 desktop virtual box installation
+#### ubuntu 14.04 desktop virtual box installation
  
 - Donwload Vagrantfile from https://gist.github.com/jongchul/6da1ac010673b3baf490 
    
@@ -28,7 +28,7 @@
 
     
 
-## Reference sites
+#### Reference sites
 
 - calculus : www.edx.org calculus differenciation course
 
@@ -42,7 +42,7 @@
 
 
 
-## License
+#### License
 Copyright 2016 Jongchul Seon, jongchul.seon@gmail.com
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
