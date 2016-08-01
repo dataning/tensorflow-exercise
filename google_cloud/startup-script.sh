@@ -31,8 +31,13 @@ useradd -m -d /home/pythonapp pythonapp
 # Get the source code from the Google Cloud Repository
 # git requires $HOME and it's not set during the startup script.
 
-mkdir /opt/cuteconda 
+if [ ! -d "opt/cuteconda] ;
+    then
 
+        mkdir /opt/cuteconda 
+        
+fi 
+        
 export HOME=/root
 git config --global credential.helper gcloud.sh
 
@@ -48,7 +53,7 @@ fi
 
 cd /opt/cuteconda
 
-git pull
+sudo git pull
 
 # Install app dependencies
 # please check below 'Anaconda installer file hashes' if you want production. 
@@ -61,17 +66,19 @@ if [ ! -d "opt/cuteconda/conda" ] ;
         wget http://repo.continuum.io/archive/Anaconda2-4.1.1-Linux-x86_64.sh -O /opt/cuteconda/conda.sh && \
         sudo /bin/bash /opt/cuteconda/conda.sh -b -p /opt/cuteconda/conda
     
+        export PATH=$PATH:"/opt/cuteconda/conda/bin"
+        
+        conda create -n tensorflow -y python=2.7
         
 fi
 
-export PATH=$PATH:"/opt/cuteconda/conda/bin"
- 
 
+ 
 conda update -y conda
 
 conda update -y anaconda
     
-conda create -n tensorflow -y python=2.7
+# conda create -n tensorflow -y python=2.7
 
 conda install -n tensorflow -c jjhelmus -y tensorflow=0.9.0
 
@@ -107,8 +114,16 @@ supervisorctl update
 # [END startup]
 
 
+# There is github repository about bioconda. https://github.com/bioconda
+# You can use and build conda packages or 
+
 # pip install iplotter (python javascirpt chart library) 
 #sudo /opt/cuteconda/conda/envs/tensorflow/bin/pip install iplotter
+
+
+# R lib installation
+# sudo /opt/cuteconda/conda/envs/tensorflow/bin/R 
+# please refer to https://github.com/jongchul/genomic-R, bioconductor installation
     
 
 
