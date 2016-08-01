@@ -8,7 +8,7 @@
   - R : RNA sequence analsysis example 
   - tensorflow : basic examples including differencitation, theano, tensorflow and etc.
   - genomics : genomics tools installation files
-  - google_cloud : tensorflow installation script on google cloud instance 
+  - google_cloud : anaconda with tensorflow installation script on google cloud instance 
   
   
 #### ubuntu 14.04 desktop virtual box installation
