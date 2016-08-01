@@ -1,5 +1,7 @@
 ```
-This repository has been made while I've learning machine learning. The repository contains R,Python and bash scripts. ( I'm just a cs student and not a bioinformatician.)
+This repository has been made while I've learning machine learning. 
+The repository contains R,Python and bash scripts. 
+( I'm just a cs student and not a bioinformatician.)
 ```
   
   - raspberrypi : tensorflow installation (not specific plan to update)
