@@ -85,9 +85,9 @@ chown -R pythonapp:pythonapp /opt/cuteconda
 # Configure supervisor to start pythonapp inside of our conda env and run the
 # applicaiton.
 cat >/etc/supervisor/conf.d/python-app.conf << EOF
-[program:pythonapp]
+[program:jupyter]
 directory=/opt/cuteconda
-command=/opt/cuteconda/conda/envs/tensorflow/bin/jupyter notebook --ip='*' --port=8080
+command=/opt/cuteconda/conda/envs/tensorflow/bin/jupyter notebook --ip='*' --port=8080 --matplotlib='inline'
 autostart=true
 autorestart=true
 user=pythonapp
@@ -107,8 +107,8 @@ supervisorctl update
 # [END startup]
 
 
-
-
+# pip install iplotter (python javascirpt chart library) 
+#sudo /opt/cuteconda/conda/envs/tensorflow/bin/pip install iplotter
     
 
 
