@@ -1,5 +1,5 @@
 ```
-####  This repository has been made while I've learning machine learning. The repository contains R,Python and bash scripts. ( I'm just a cs student and not a bioinformatician.)
+This repository has been made while I've learning machine learning. The repository contains R,Python and bash scripts. ( I'm just a cs student and not a bioinformatician.)
 ```
   
   - raspberrypi : tensorflow installation (not specific plan to update)
@@ -14,9 +14,12 @@
   
   - google_cloud : anaconda with tensorflow installation script on google cloud instance 
   
+  
+  
 ```
-#### Ubuntu 14.04 desktop virtual box installation
+Ubuntu 14.04 desktop virtual box installation
 ```
+
 - Donwload Vagrantfile from https://gist.github.com/jongchul/6da1ac010673b3baf490 
    
 - 'vagrant up' in command prompt  
@@ -28,11 +31,13 @@
 - git installation on the vm 
     - sudo apt-get update
     - sudo apt-get install git
-    
+ 
+
 
 ```
-#### License
+License
 ```
+
 Copyright 2016 Jongchul Seon, jongchul.seon@gmail.com
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
@@ -41,6 +46,7 @@ http://www.apache.org/licenses/LICENSE-2.0
 
 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
 
+
 ```
-####  Please use GitHub issues for tracking requests and bugs.
+Please use GitHub issues for tracking requests and bugs.
 ```
