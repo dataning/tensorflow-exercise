@@ -4,14 +4,19 @@
   
   
   - raspberrypi : tensorflow installation (not specific plan to update)
+  
   - dataflow : (not specific plan to update)
+  
   - R : RNA sequence analsysis example 
+  
   - tensorflow : basic examples including differencitation, theano, tensorflow and etc.
+  
   - genomics : genomics tools installation files
+  
   - google_cloud : anaconda with tensorflow installation script on google cloud instance 
   
   
-#### ubuntu 14.04 desktop virtual box installation
+#### Ubuntu 14.04 desktop virtual box installation
  
 - Donwload Vagrantfile from https://gist.github.com/jongchul/6da1ac010673b3baf490 
    
@@ -25,21 +30,6 @@
     - sudo apt-get update
     - sudo apt-get install git
     
-
-    
-
-#### Reference sites
-
-- calculus : www.edx.org calculus differenciation course
-
-- tensorflow : www.tensorflow.org tensorflow web site
-
-- raspberrypi : www.raspberrypi.org
-
-- jupyter : jupyter.org
-
-- google_cloud : cloud.google.com
-
 
 
 #### License
