@@ -18,7 +18,7 @@ The repository contains R,Python and bash scripts.
   
   - dataflow : (not specific plan to update, will be deprecated)
   
-
+```
 Ubuntu 14.04 desktop virtual box installation
 ```
 
@@ -34,14 +34,13 @@ Ubuntu 14.04 desktop virtual box installation
     - sudo apt-get update
     - sudo apt-get install git
  
-
+```
   Dockerfile in gpu-pc directory and word2vec_basic.ipynb in tensorflow directory are not made by me. I added a few lines, however the credit should go to official tensorflow site.
+```
 
 ```
 License
 ```
-
-
 
 Copyright 2016 Jongchul Seon, jongchul.seon@gmail.com
 
