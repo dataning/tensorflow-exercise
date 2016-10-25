@@ -2,13 +2,14 @@
 This repository has been made while I've learning machine learning. 
 The repository contains R,Python and bash scripts. 
 ( I'm just a cs student and not a bioinformatician.)
+Current version is rc-0.1.
 ```
 
   - R : RNA sequence analsysis example 
   
-  - tensorflow : basic examples including differencitation, theano, tensorflow and etc.
-  
   - genomics : genomics tools installation files
+  
+  - tensorflow : basic examples including differencitation, theano, tensorflow and etc
   
   - google_cloud : anaconda with tensorflow installation script on google cloud instance 
   
@@ -35,8 +36,8 @@ Ubuntu 14.04 desktop virtual box installation
     - sudo apt-get install git
  
 ```
-  Dockerfile in gpu-pc directory and word2vec_basic.ipynb in tensorflow directory are not made by me. 
-  I added a few lines, however the credit should go to official tensorflow site.
+Dockerfile in gpu-pc directory and word2vec_basic.ipynb in tensorflow directory are not made by me. 
+I added a few lines, however the credit should go to official tensorflow site.
 ```
 
 ```
