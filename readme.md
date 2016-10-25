@@ -35,7 +35,8 @@ Ubuntu 14.04 desktop virtual box installation
     - sudo apt-get install git
  
 ```
-  Dockerfile in gpu-pc directory and word2vec_basic.ipynb in tensorflow directory are not made by me. I added a few lines, however the credit should go to official tensorflow site.
+  Dockerfile in gpu-pc directory and word2vec_basic.ipynb in tensorflow directory are not made by me. 
+  I added a few lines, however the credit should go to official tensorflow site.
 ```
 
 ```
